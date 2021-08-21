@@ -6,6 +6,7 @@ kraken = ccxt.kraken()
 binance = ccxt.binance()
 
 rillrate.install()
+exchanges = rillrate.Selector("exchanges.dashboard.latency.exchange", "Exchange", ccxt.exchanges)
 kraken_latency = rillrate.Pulse("exchanges.dashboard.latency.kraken")
 binance_latency = rillrate.Pulse("exchanges.dashboard.latency.binance")
 
