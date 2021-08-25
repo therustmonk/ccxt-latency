@@ -269,7 +269,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
 
 [[package]]
 name = "rillrate"
-version = "0.38.0-rc.2"
+version = "0.38.0"
 description = "rillrate bindings for python"
 category = "main"
 optional = false
@@ -319,7 +319,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "ee1c5727645dd08817ddf339fa8d8e2d197ded2ade149cdfbc17a4e988f5b332"
+content-hash = "5d98704863cd39b80d4c6634c8cf1050f0e02340f53cdc56bf7bcd4a338142e3"
 
 [metadata.files]
 aiodns = [
@@ -574,18 +574,18 @@ requests = [
     {file = "requests-2.26.0.tar.gz", hash = "sha256:b8aa58f8cf793ffd8782d3d8cb19e66ef36f7aba4353eec859e74678b01b07a7"},
 ]
 rillrate = [
-    {file = "rillrate-0.38.0_rc.2-cp36-cp36m-macosx_10_7_x86_64.whl", hash = "sha256:12871b79174fe966c06f08f9fe4cd695685e6008820132b1ef5c4546811525fe"},
-    {file = "rillrate-0.38.0_rc.2-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:a8f4bc9bc5196a848a135cb648752ad5fc0ee1d9d2249e5dd46fefe29d1d8aab"},
-    {file = "rillrate-0.38.0_rc.2-cp36-none-win_amd64.whl", hash = "sha256:814d63997f5f01e7baf5d6b9005d27e0e747a7280f113e8c5f68bff50f08f9b3"},
-    {file = "rillrate-0.38.0_rc.2-cp37-cp37m-macosx_10_7_x86_64.whl", hash = "sha256:362dd45bb2ce6b244e9baafc76420370a49c6789ff7a29ba5f89814e74adbcd4"},
-    {file = "rillrate-0.38.0_rc.2-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:8139f30da3c1e2895a69879059562e8f11ec5e78e86e8ef877db1997c9bc6796"},
-    {file = "rillrate-0.38.0_rc.2-cp37-none-win_amd64.whl", hash = "sha256:0e2ec830f19077740aed9f5269a194c53368b052163582fab49d4f8cbf7e6ff4"},
-    {file = "rillrate-0.38.0_rc.2-cp38-cp38-macosx_10_7_x86_64.whl", hash = "sha256:05d9474d76321e897f4694b802889e1f35bb297c34d275fb37bdc2e9291ee360"},
-    {file = "rillrate-0.38.0_rc.2-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:42fe73c6824b1ec2c64ae84b1482b8c9a0d6035e79c204df5be6407e7ebe6528"},
-    {file = "rillrate-0.38.0_rc.2-cp38-none-win_amd64.whl", hash = "sha256:b95392533daddecf3f74928a31822b58eb8223e542fa50a9463d049d5c5fe8ad"},
-    {file = "rillrate-0.38.0_rc.2-cp39-cp39-macosx_10_7_x86_64.whl", hash = "sha256:089296906ac5c7054574b05fd1bc28b8b56621d7515004813cc283d4d2f0f8ae"},
-    {file = "rillrate-0.38.0_rc.2-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:1e4a57e442065323c90024a97bc67cb6bc7fa9aa1e76157bb8cc24332af5398f"},
-    {file = "rillrate-0.38.0_rc.2-cp39-none-win_amd64.whl", hash = "sha256:c7f3a58f1bd9048315252cb44699110054d52f5893741f6871a1d084eb6cfb45"},
+    {file = "rillrate-0.38.0-cp36-cp36m-macosx_10_7_x86_64.whl", hash = "sha256:b45b7db45aa938336667436e10256efedbea70022a11991517d5de793158d939"},
+    {file = "rillrate-0.38.0-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:05eb98abb6ddc0ec14070455784cd5d86d2e62ef312f7d1b1fe13930428c807e"},
+    {file = "rillrate-0.38.0-cp36-none-win_amd64.whl", hash = "sha256:793649f137e7bcc2069207a34fd22a06422998f5f737d661cace000cff0c7234"},
+    {file = "rillrate-0.38.0-cp37-cp37m-macosx_10_7_x86_64.whl", hash = "sha256:077ccf7e83d049b0044a7094fcedb45ce5bb3658dfed14d055624d20685841b8"},
+    {file = "rillrate-0.38.0-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:c761abd1f0e67e60ed657f8075a8a3dbceb2f390a1c867f740b27dfb63b4318e"},
+    {file = "rillrate-0.38.0-cp37-none-win_amd64.whl", hash = "sha256:cdab961bda0d455ee58ea61aea66fb3db3688fd5249d87a9ad18e71ca9b5e7a9"},
+    {file = "rillrate-0.38.0-cp38-cp38-macosx_10_7_x86_64.whl", hash = "sha256:83568d6dc57dc353293c1b461844d37e609ff9567362e6c67009322e196f7ad8"},
+    {file = "rillrate-0.38.0-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:7cb6d7be6cab43992b8b2a635493a9c03dfbfdfcc9852934688a0c8e2eb02fd7"},
+    {file = "rillrate-0.38.0-cp38-none-win_amd64.whl", hash = "sha256:41c92eafbbcee3b079ff3f253a2e8d0d57637ed9279d8cd57109b4c302b8d9fe"},
+    {file = "rillrate-0.38.0-cp39-cp39-macosx_10_7_x86_64.whl", hash = "sha256:8b813ed3cc68bb3bb16b06832bd76864a2f7b20535db98a665630143be18c14a"},
+    {file = "rillrate-0.38.0-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:4ddf9d3a31c22db4febd6e0165b1339ee034f629d6aa5d8a877aa3b8705182f0"},
+    {file = "rillrate-0.38.0-cp39-none-win_amd64.whl", hash = "sha256:7558d0e4042f6f5c21d4736167a4d994b3eda163f7e0869e71c8dbe8eca68dfa"},
 ]
 typing-extensions = [
     {file = "typing_extensions-3.10.0.0-py2-none-any.whl", hash = "sha256:0ac0f89795dd19de6b97debb0c6af1c70987fd80a2d62d1958f7e56fcc31b497"},
