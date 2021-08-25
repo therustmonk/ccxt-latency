@@ -6,7 +6,7 @@ authors = ["Denis Kolodin <deniskolodin@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-rillrate = "0.38.0-rc.1"
+rillrate = "0.38.0-rc.2"
 ccxt = "^1.55.22"
 
 [tool.poetry.dev-dependencies]
